@@ -50,6 +50,3 @@ func DifferentWordsCount(str string) (d uint) {
 	}
 	return
 }
-func main() {
-	fmt.Println(DifferentWordsCount("!!!1!!;;'"))
-}
