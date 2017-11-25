@@ -24,7 +24,7 @@ func PowerGenerator(a int) func() int {
 	}
 }
 
-func DifferentWordsCount(str string) (d uint) {
+func DifferentWordsCount(str string) (d int) {
 	d = 0
 	arr := make([]string, 0)
 	var s string
